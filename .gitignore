@@ -1,0 +1,37 @@
+# React Parcel Project - .gitignore
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore the parcel-cache directory (Parcel cache)
+.parcel-cache/
+
+# Ignore the dist directory (Parcel output)
+dist/
+
+# Ignore the .cache directory (Parcel cache)
+.cache/
+
+# Ignore environment variables files
+.env
+.env.*
+
+# Ignore build artifacts (if applicable)
+build/
+
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# Ignore IDE specific directories
+.idea/
+.vscode/
+
+# Ignore the .git directory itself
+.git/
+
+# Ignore lock files (yarn.lock or package-lock.json)
+yarn.lock
+package-lock.json
+
+# Ignore code coverage reports (if applicable)
+coverage/

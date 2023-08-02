@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-items > ul > li {
+  cursor: pointer;
+}
